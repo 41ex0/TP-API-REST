@@ -1,7 +1,6 @@
 package Principal.TPAPI.controllers;
 
 import Principal.TPAPI.entities.Base;
-import Principal.TPAPI.entities.Persona;
 import Principal.TPAPI.services.BaseServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
