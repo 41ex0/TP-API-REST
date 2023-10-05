@@ -9,18 +9,12 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name ="Autor")
+@Table(name = "localidad")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Autor extends Base{
-    @Column(name = "nombre")
-    private String nombre;
-    @Column(name = "apellido")
-    private String apellido;
-    @Column(name = "biografia", length = 1500)
-    private String biografia;
-
-
+public class Localidad extends Base{
+    @Column(name = "denominacion")
+    private String denominacion;
 }
