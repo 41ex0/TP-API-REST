@@ -22,5 +22,4 @@ public class Autor extends Base{
     @Column(name = "biografia", length = 1500)
     private String biografia;
 
-
 }

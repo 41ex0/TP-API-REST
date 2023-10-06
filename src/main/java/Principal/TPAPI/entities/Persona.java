@@ -12,7 +12,6 @@ import java.util.List;
 @AllArgsConstructor
 @Getter
 @Setter
-@Builder //Para hacer pruebas
 public class Persona extends Base {
     @Column(name="nombre")
     private String nombre;
@@ -31,5 +30,5 @@ public class Persona extends Base {
             joinColumns = @JoinColumn(name = "persona_id"),
             inverseJoinColumns = @JoinColumn(name = "libro_id")
     )
-    private List<Libro> libros = new ArrayList<Libro>();
+    private List<Libro> libros = new ArrayList<>();
 }
