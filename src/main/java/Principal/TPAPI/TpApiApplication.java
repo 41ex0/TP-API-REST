@@ -10,5 +10,4 @@ public class TpApiApplication {
 		SpringApplication.run(TpApiApplication.class, args);
 		System.out.println("Estoy funcionando ;)");
 	}
-
 }
