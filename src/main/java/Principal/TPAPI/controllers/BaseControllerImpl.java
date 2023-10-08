@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.io.Serializable;
 
 public abstract class BaseControllerImpl<E extends Base, S extends BaseServiceImpl<E,Long>> implements BaseController<E,Long> {
-    //PORQUE Long en vez de tipo ID?¿?¿?¿?¿?¿?
+
     @Autowired
     protected S servicio;
 
